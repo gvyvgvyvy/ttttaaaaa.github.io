@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 251, 248);
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #129;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*header*/
+header{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background:#4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(211, 14%, 39%, 0.479), #4ECDC4), url(fffff.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-header{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 30px 0%;
+    text-align: center;
+    display: flex;
+    margin: 0% 40%;
+    max-height: 100%;
+    margin-bottom: auto;
+}
+nav a:hover{
+    color: black;
+}
+nav img{
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #077ef55e, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(211, 95%, 46%, 0.575), hsl(204, 8%, 76%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0% 300px;
+    width: 400px  50%;
+    height: 400px;
+    margin-bottom: 30%;
+}
+.portafolio{
+    background-image: url(background-2426328_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.contenedor-sobre-nosotros h1.titulo{
+    background-color: rgb(134, 150, 238);
+}
+.contenedor-textos p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 100px;
+}
+p.part2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 100px;
+
+}
+h2.titulo{
+    color: rgb(117, 126, 247);
+    font-size: 40px;
+}
+div.comen{
+    background-color: #556270;
+    color: white;
+    font-size: 30px;
+}
+div.contacto{
+    font-size: 20px;
+}
+
+.contenedor-compra {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .datos-personales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .datos-personales label {
+    margin-bottom: 10px;
+    }
+    
+    .datos-personales input[type="text"] {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+    
+    .datos-personales select {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+    
+    .comprar {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    .texttt{
+        font-size: 50px;
+        background-color: #556270;
+    }
+
+
+

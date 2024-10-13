@@ -1,0 +1,273 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.portada2{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background:#4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(211, 14%, 39%, 0.479), #4ECDC4), url(fffff.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+main{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.container-img{
+    flex: 1;
+    margin: 20px;
+}
+img.disco1{
+    height: 100%;
+    width: 100%;
+}
+.container-title{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    padding: 30px   10px;
+}
+.container-info-product{
+    margin: 20px;
+    background-color: darkgrey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-price{
+    padding: 30px 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #e4e4e4;
+    font-size: 30px;
+}
+label.cantidad{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 70px  20px;
+    border-bottom: 2px solid #e4e4e4;
+}
+.container-add-carrito{
+    padding:  10%  5%;
+    font-weight: bold;
+}
+button.add-carrito-btn{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.container-descripcion{
+    text-align: center;
+}
+.texto-descrip{
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+
+/*parte2*/
+.container-img2{
+    flex: 1;
+    margin: 20px;
+}
+img.disco2{
+    height: 100%;
+    width: 100%;
+}
+.container-title2{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    padding: 30px   10px;
+}
+.container-info-product2{
+    margin: 20px;
+    background-color: darkgrey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-price2{
+    padding: 30px 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #e4e4e4;
+    font-size: 30px;
+}
+label.cantidad2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 70px  20px;
+    border-bottom: 2px solid #e4e4e4;
+}
+.container-add-carrito2{
+    padding:  10%  5%;
+    font-weight: bold;
+}
+button.add-carrito-btn2{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.container-descripcion2{
+    text-align: center;
+}
+.texto-descrip2{
+    font-size: 20px;
+}
+
+/*parte 3*/
+.container-img3{
+    flex: 1;
+    margin: 20px;
+}
+img.disco3{
+    height: 100%;
+    width: 100%;
+}
+.container-title3{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    padding: 30px   10px;
+}
+.container-info-product3{
+    margin: 20px;
+    background-color: darkgrey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-price3{
+    padding: 30px 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #e4e4e4;
+    font-size: 30px;
+}
+label.cantidad3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 70px  20px;
+    border-bottom: 2px solid #e4e4e4;
+}
+.container-add-carrito3{
+    padding:  10%  5%;
+    font-weight: bold;
+}
+button.add-carrito-btn3{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.container-descripcion3{
+    text-align: center;
+}
+.texto-descrip3{
+    font-size: 20px;
+}
+
+/*parte4*/
+.container-img4{
+    flex: 1;
+    margin: 20px;
+}
+img.disco4{
+    height: 100%;
+    width: 100%;
+}
+.container-title4{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    padding: 30px   10px;
+}
+.container-info-product4{
+    margin: 20px;
+    background-color: darkgrey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-price4{
+    padding: 30px 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #e4e4e4;
+    font-size: 30px;
+}
+label.cantidad4{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 70px  20px;
+    border-bottom: 2px solid #e4e4e4;
+}
+.container-add-carrito4{
+    padding:  10%  5%;
+    font-weight: bold;
+}
+button.add-carrito-btn4{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.container-descripcion4{
+    text-align: center;
+}
+.texto-descrip4{
+    font-size: 20px;
+}
+
+/*parte5*/
+.container-img5{
+    flex: 1;
+    margin: 20px;
+}
+img.disco5{
+    height: 100%;
+    width: 100%;
+}
+.container-title5{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    padding: 30px   10px;
+}
+.container-info-product5{
+    margin: 20px;
+    background-color: darkgrey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-price5{
+    padding: 30px 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #e4e4e4;
+    font-size: 30px;
+}
+label.cantidad5{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 70px  20px;
+    border-bottom: 2px solid #e4e4e4;
+}
+.container-add-carrito5{
+    padding:  10%  5%;
+    font-weight: bold;
+}
+button.add-carrito-btn5{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.container-descripcion5{
+    text-align: center;
+}
+.texto-descrip5{
+    font-size: 20px;
+}
